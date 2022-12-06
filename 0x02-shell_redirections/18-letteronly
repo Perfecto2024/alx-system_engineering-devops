@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep -i "^ [a-z]" /etc/ssh/sshd_config
+egrep -1 "^ [a-z]" /etc/ssh/sshd_config
